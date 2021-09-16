@@ -123,6 +123,46 @@
           }
         }
       }
+    },
+    "classifications": {
+      "projectType": "library",
+      "root": "projects/classifications",
+      "sourceRoot": "projects/classifications/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/classifications/tsconfig.lib.json",
+            "project": "projects/classifications/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/classifications/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/classifications/src/test.ts",
+            "tsConfig": "projects/classifications/tsconfig.spec.json",
+            "karmaConfig": "projects/classifications/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/classifications/tsconfig.lib.json",
+              "projects/classifications/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "gpc-classifications"
 }
