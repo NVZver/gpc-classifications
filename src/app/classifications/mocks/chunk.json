@@ -1,0 +1,1235 @@
+{
+  "id": "80000637",
+  "level": "GPC Chunk",
+  "localisedContent": [
+    {
+      "locale": "nl",
+      "name": "Aardappelpot"
+    },
+    {
+      "locale": "fr",
+      "name": "Pot de pommes de terre"
+    }
+  ],
+  "tracking": {
+    "createdAt": "2020-07-28T12:12:39.013Z",
+    "lastModifiedAt": "2020-07-28T12:12:39.013Z",
+    "lastModifiedBy": "STEP"
+  },
+  "attributes": [
+    {
+      "attributeId": "Internal Reference",
+      "enrichmentLevel": 0,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Internal Reference"
+        },
+        {
+          "locale": "nl",
+          "name": "Interne referentie"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "EAN",
+      "enrichmentLevel": 0,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "EAN",
+          "attributeDefinition": "Hier kunt u opgeven wat het EAN van het product is Dit dient een officieel uitgegeven EAN te zijn van 13 cijfers",
+          "fillingInstruction": "Een EAN dient te bestaan uit 13 cijfers. Wanneer het EAN niet uit 13 cijfers bestaat vul dan aan door er nullen voor te plaatsen"
+        },
+        {
+          "locale": "fr",
+          "name": "EAN",
+          "attributeDefinition": "Vous pouvez spécifier ici ce qu'est l'EAN du produit Il doit s'agir d'un EAN officiel de 13 chiffres.",
+          "fillingInstruction": "Un EAN doit être composé de 13 chiffres. Si l'EAN ne comprend pas 13 chiffres, complétez-le en plaçant des zéros devant"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Name",
+      "enrichmentLevel": 0,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Nom du produit",
+          "attributeDefinition": "Entrez ici le nom du produit",
+          "fillingInstruction": "Un bon titre contient la marque de l'article, un nom de série, un numéro de type et quelques traits de caractère distinctifs. Pour la lisibilité, il est également important que le titre comprenne en moyenne 70 caractères, qu'il ne soit pas entièrement écrit en majuscules et que des traits d'union soient utilisés entre les différentes données. Dans le titre, évitez les mots tels que « promotion » et « offre » et des références à des sources externes. Exemple: [Marque] [Code ou nom du produit] – [Type de produit] – [Caractéristique 1] – [Caractéristique 2]."
+        },
+        {
+          "locale": "nl",
+          "name": "Productnaam",
+          "attributeDefinition": "Geef hier de naam van het product op",
+          "fillingInstruction": "Een goede titel bevat het merk van het artikel, een serienaam, een typenummer en enkele onderscheidende karaktereigenschappen. Voor de leesbaarheid is het daarnaast belangrijk dat de titel gemiddeld 70 tekens lang is, deze niet geheel in hoofdletters geschreven wordt en dat er tussen de verschillende gegevens koppeltekens worden gebruikt. Vermijd in de titel worden als ‘actie’ en ‘aanbieding’ en verwijzingen naar externe bronnen. Voorbeeld: [Merk] [Productcode of Productnaam] – [Producttype] – [Kenmerk 1] – [Kenmerk 2]."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Classification",
+      "enrichmentLevel": 0,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Product Classification",
+          "fillingInstruction": "Choisissez le type de produit."
+        },
+        {
+          "locale": "nl",
+          "name": "Productgroep",
+          "fillingInstruction": "Kies de product soort."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Trace ID",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Trace ID"
+        },
+        {
+          "locale": "fr",
+          "name": "Trace ID"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Channel",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Channel"
+        },
+        {
+          "locale": "nl",
+          "name": "Channel"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "GPC Code",
+      "promotionLevel": "Family",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "GPC Code"
+        },
+        {
+          "locale": "fr",
+          "name": "GPC Code"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Family ID",
+      "promotionLevel": "Product",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Family ID"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Expose Status",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Expose Status"
+        },
+        {
+          "locale": "nl",
+          "name": "Expose Status"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Appearance Name",
+      "promotionLevel": "Product",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Appearance Name"
+        },
+        {
+          "locale": "fr",
+          "name": "Appearance Name"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Family Name",
+      "promotionLevel": "Family",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Product Family Name"
+        },
+        {
+          "locale": "fr",
+          "name": "Product Family Name"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Global ID",
+      "attributeType": "System",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Global ID"
+        },
+        {
+          "locale": "nl-BE",
+          "name": "Global ID"
+        },
+        {
+          "locale": "fr",
+          "name": "Global ID"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Family Key",
+      "enrichmentLevel": 2,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Productvariant ID"
+        },
+        {
+          "locale": "fr",
+          "name": "Family Key"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Video URL",
+      "enrichmentLevel": 2,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Video URL (handmatig verwerkt)",
+          "attributeDefinition": "Let op plaats hier alleen YouTube URL(s) naar productvideo(s). Deze informatie gebruiken we om te onderzoeken hoeveel en wat voor video’s er bij onze partners beschikbaar zijn. We kunnen helaas niet garanderen dat deze online komen."
+        },
+        {
+          "locale": "fr",
+          "name": "Video URL",
+          "attributeDefinition": "Veuillez noter que seules les URL YouTube vers les vidéos des produits doivent être placées ici. Nous utilisons ces informations pour déterminer le nombre et le type de vidéos disponibles chez nos partenaires. Malheureusement, nous ne pouvons pas garantir qu'elles seront mises en ligne."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Colour",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Kleur",
+          "attributeDefinition": "De (hoofd)kleur(en) van het product.",
+          "fillingInstruction": "Het is mogelijk om meerdere kleuren te vermelden. Gebruik een ; als scheidingsteken. Voorbeeld: Rood;Wit;Blauw. Maak gebruik van een hoofdletter aan het begin van het woord."
+        },
+        {
+          "locale": "fr",
+          "name": "Couleur",
+          "attributeDefinition": "La (les) couleur(s) principale(s) du produit.",
+          "fillingInstruction": "Il est possible d'indiquer plusieurs couleurs. Utilisez un « ; » comme séparateur. Exemple : Rouge ; Blanc ; Bleu. Utilisez une majuscule au début du mot."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Material",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Materiaal",
+          "attributeDefinition": "Het materiaal of materialen waarvan het product gemaakt is.",
+          "fillingInstruction": "Het is mogelijk om meerdere materialen te vermelden. Gebruik een ; als scheidingsteken. Voorbeeld: Nylon;Polyester. Maak gebruik van een hoofdletter aan het begin van het woord."
+        },
+        {
+          "locale": "fr",
+          "name": "Matériel",
+          "attributeDefinition": "Le ou les matériaux à partir desquels le produit est fabriqué.",
+          "fillingInstruction": "Il est possible d'indiquer plusieurs matériaux. Utilisez un « ; » comme séparateur. Exemple : Nylon ; Polyester. Utilisez une majuscule au début du mot."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Shape",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Forme",
+          "attributeDefinition": "Quelle forme prend cet article ? Si cet attribut n'est pas pertinent, sélectionnez la valeur « Aucun formulaire »."
+        },
+        {
+          "locale": "nl",
+          "name": "Vorm",
+          "attributeDefinition": "Welke vorm heeft dit artikel? Indien dit attribuut niet relevant is, kies de waarde 'Geen vorm'."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Length",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Longueur d'emballage",
+          "attributeDefinition": "Longueur de l'emballage"
+        },
+        {
+          "locale": "nl",
+          "name": "Verpakking lengte",
+          "attributeDefinition": "Lengte van de verpakking"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Width",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Largeur du produit",
+          "attributeDefinition": "Largeur du produit"
+        },
+        {
+          "locale": "nl",
+          "name": "Product breedte",
+          "attributeDefinition": "Breedte van het product"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Brand",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Marque",
+          "attributeDefinition": "La marque du produit en question. Un produit ne peut être proposé en tant que produit de marque que si la marque de ce type de produit est enregistrée auprès de l'OBPI. La marque doit être visible sur l'emballage d'origine du produit ou sur l'article lui-même ainsi que sur les images du produit. Les autocollants ne sont pas autorisés. Pour les articles sans marque, entrez « sans marque » ici. Commencez toujours la marque par une majuscule.",
+          "fillingInstruction": "La marque du produit concerné. La structure du titre commence par la marque. Commencez toujours la marque par une majuscule."
+        },
+        {
+          "locale": "nl",
+          "name": "Merk",
+          "attributeDefinition": "Het merk van het betreffende product. Een product mag alleen als merkproduct worden aangeboden als het merk voor dat type artikel geregistreerd is bij BOIP. Het merk dient zichtbaar te zijn op de originele productverpakking of op het artikel zelf en daarnaast ook op de productafbeeldingen. Stickers zijn hiervoor niet toegestaan. Bij merkloze artikelen vul je hier “merkloos” in. Begin het merk altijd met een hoofdletter.",
+          "fillingInstruction": "Het merk van het desbetreffende product. De titelopbouw begint met het merk. Begin het merk altijd met een hoofdletter."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Cover Image URL",
+      "enrichmentLevel": 1,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Cover Image URL",
+          "attributeDefinition": "L'ajout d'images peut se faire de deux façons : 1) via 'ajouter une image' dans le navigateur, vous pouvez choisir un fichier sur votre bureau et le télécharger. 2) via l'URL, vous pouvez ajouter une URL que nous pouvons ensuite télécharger pour vous et ajouter à l'article. Les images doivent respecter les formats suivants : taille minimale du fichier : 30 Ko, taille maximale du fichier : 25 Mo, résolution minimale acceptée : 500 x 500 px et résolution maximale acceptée : 6 000 x 6 000 px."
+        },
+        {
+          "locale": "nl",
+          "name": "Hoofdafbeelding",
+          "attributeDefinition": "Afbeeldingen toevoegen kan op 2 manieren: 1) via 'afbeelding toevoegen' in de browser kun je een bestand vanaf je bureaublad kiezen en uploaden. 2) via de URL, kun je een URL toevoegen die wij dan voor jou kunnen downloaden en bij het artikel plaatsen. De afbeeldingen dienen te voldoen aan de volgende formaten: minimale bestandsgrootte: 30KB, maximale bestandsgrootte: 25MB, minimale geaccepteerde afbeelding resolutie: 500 x 500 px en maximale geaccepteerde afbeelding resolutie: 6 000 x 6 000 px."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Description",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Beschrijving",
+          "attributeDefinition": "De beschrijving zoals deze wordt getoond op de productpagina. Het is mogelijk gebruik te maken van html tags.",
+          "fillingInstruction": "Vul hier de commerciële beschrijving in zoals deze op de website getoond moet worden. Deze dient Nederlandstalig te zijn en bij voorkeur in de ‘jij-vorm’ geschreven te worden. Deze beschrijving mag maximaal 3000 tekens bevatten.Een goede productbeschrijving sluit aan op de titel en helpt de klant met het maken van zijn aankoopbeslissing. Daarom is complete, relevante en gestructureerde informatie belangrijk en daarin dient correcte interpunctie gebruikt te worden. Vermijd daarbij woorden als ‘actie’ en ‘aanbieding’ en verwijzingen naar externe bronnen."
+        },
+        {
+          "locale": "fr",
+          "name": "Description",
+          "attributeDefinition": "La description telle qu'elle apparait sur la page du produit. Il est possible d'utiliser des balises html.",
+          "fillingInstruction": "Saisissez ici la description commerciale telle qu'elle doit être affichée sur le site Web. Cela doit être rédigé en français et de préférence écrit sous la forme « vous ». Cette description peut contenir un maximum de 3 000 caractères. Une bonne description du produit est conforme au titre et aide le client à prendre sa décision d'achat. C'est pourquoi des informations complètes, pertinentes et structurées sont importantes et une ponctuation correcte doit être utilisée. Évitez les mots tels que « promotion » et « offre » et les références à des sources externes."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Height",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Verpakking hoogte",
+          "attributeDefinition": "Hoogte van de verpakking"
+        },
+        {
+          "locale": "fr",
+          "name": "Hauteur de l'emballage",
+          "attributeDefinition": "Hauteur de l'emballage"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Height",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Hauteur du produit",
+          "attributeDefinition": "Hauteur du produit"
+        },
+        {
+          "locale": "nl",
+          "name": "Product hoogte",
+          "attributeDefinition": "Hoogte van het product"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Length",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Product lengte",
+          "attributeDefinition": "De lengte van het product"
+        },
+        {
+          "locale": "fr",
+          "name": "Longueur du produit",
+          "attributeDefinition": "Longueur du produit"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Still Image URL",
+      "enrichmentLevel": 2,
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Still Image URL",
+          "attributeDefinition": "Les images doivent respecter les formats suivants : taille minimale du fichier : 30 Ko, taille maximale du fichier : 25 Mo, résolution minimale acceptée : 500 x 500 px et résolution maximale acceptée : 6 000 x 6 000 px. L'ajout d'images peut se faire de deux façons : 1) via 'ajouter une image' dans le navigateur, vous pouvez choisir un fichier sur votre bureau et le télécharger. 2) via l'URL, vous pouvez ajouter une URL que nous pouvons ensuite télécharger pour vous et ajouter à l'article.",
+          "fillingInstruction": "Si vous souhaitez ajouter plusieurs images supplémentaires, elles doivent être séparées par un « ; » (par exemple url1.jpg ; url2.jpg). Regardez dans le manuel d'utilisation pour les spécifications détaillées : http://www.bol.com/nl/m/service/zakelijkverkopen-handleiding/index.html#kolommen"
+        },
+        {
+          "locale": "nl",
+          "name": "Additionele afbeeldingen",
+          "attributeDefinition": "De afbeeldingen dienen te voldoen aan de volgende formaten: minimale bestandsgrootte: 30KB, maximale bestandsgrootte: 25MB, minimale geaccepteerde afbeelding resolutie: 500 x 500 px en maximale geaccepteerde afbeelding resolutie: 6 000 x 6 000 px. Afbeeldingen toevoegen kan op 2 manieren: 1) via 'afbeelding toevoegen' in de browser kun je een bestand vanaf je bureaublad kiezen en uploaden. 2) via de URL, kun je een URL toevoegen die wij dan voor jou kunnen downloaden en bij het artikel plaatsen.",
+          "fillingInstruction": "Indien je meedere additionele afbeeldingen wilt toevoegen, moeten deze gescheiden worden door een ;  (bijv. url1.jpg ; url2.jpg). Kijk in de handleiding voor de uitgebreide specificaties: http://www.bol.com/nl/m/service/zakelijkverkopen-handleiding/index.html#kolommen"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Weight",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Poids",
+          "attributeDefinition": "Poids de l'emballage"
+        },
+        {
+          "locale": "nl",
+          "name": "Gewicht",
+          "attributeDefinition": "Gewicht van de verpakking"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Whats In The Box",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Contenu de l'emballage",
+          "attributeDefinition": "Quel est le contenu de la commande ?",
+          "fillingInstruction": "Indiquez ici tous les extras fournis avec le produit principal"
+        },
+        {
+          "locale": "nl",
+          "name": "Verpakkingsinhoud",
+          "attributeDefinition": "Wat is de inhoud van de bestelling",
+          "fillingInstruction": "Vermeld hier alle extra's die worden meegeleverd bij het hoofdproduct"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Width",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Largeur d'emballage",
+          "attributeDefinition": "Largeur de l'emballage"
+        },
+        {
+          "locale": "nl",
+          "name": "Verpakking breedte",
+          "attributeDefinition": "Breedte van de verpakking"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Air Tight",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Luchtdicht",
+          "attributeDefinition": "Heeft dit artikel een luchtdichte functie?"
+        },
+        {
+          "locale": "fr",
+          "name": "Étanche à l'air",
+          "attributeDefinition": "Cet article a-t-il une fonction étanche à l'air ?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Bpa Free",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Sans BPA",
+          "attributeDefinition": "Le produit est-il exempt de BPA ?"
+        },
+        {
+          "locale": "nl",
+          "name": "BPA-vrij",
+          "attributeDefinition": "Is het product BPA-vrij?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Breakable",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Fragile",
+          "attributeDefinition": "L'article est-il facilement fragile ?"
+        },
+        {
+          "locale": "nl",
+          "name": "Breekbaar",
+          "attributeDefinition": "Is het artikel gemakkelijk breekbaar?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Capacity",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Contenu",
+          "attributeDefinition": "Quel est le contenu de ce produit ?"
+        },
+        {
+          "locale": "nl",
+          "name": "Inhoud",
+          "attributeDefinition": "Wat is de inhoud van dit product?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Diameter",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Diameter",
+          "attributeDefinition": "Le diamètre du produit. Si cet attribut n'est pas pertinent, entrez un 0."
+        },
+        {
+          "locale": "nl",
+          "name": "Diameter",
+          "attributeDefinition": "De doorsnede van het product. Indien dit attribuut niet relevant is, vul een 0 in."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Dishwasher Safe",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Vaatwasser veilig",
+          "attributeDefinition": "Is dit artikel vaatwasserbestendig?"
+        },
+        {
+          "locale": "fr",
+          "name": "Dishwasher Safe",
+          "attributeDefinition": "Cet article est-il lavable au lave-vaisselle ?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Mpn",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "MPN (Manufacturer Part Number)",
+          "attributeDefinition": "MPN staat voor Manufacturer Part Number Dit is het unieke nummer dat de producent aan het product heeft gegeven"
+        },
+        {
+          "locale": "fr",
+          "name": "NPP (numéro de pièce du fabricant)",
+          "attributeDefinition": "MPN signifie Manufacturer Part Number (Numéro de pièce du fabricant) Il s'agit du numéro unique que le fabricant a attribué au produit."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Number of Pieces",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Nombre de pièces",
+          "attributeDefinition": "De combien de parties se compose cet article ?"
+        },
+        {
+          "locale": "nl",
+          "name": "Aantal delen",
+          "attributeDefinition": "Uit hoeveel delen bestaat dit artikel?"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Weight",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Poids du produit",
+          "attributeDefinition": "Combien pèse le produit ? Il s'agit du poids total que le client reçoit."
+        },
+        {
+          "locale": "nl",
+          "name": "Product gewicht",
+          "attributeDefinition": "Hoeveel weegt het product? Het gaat hier om het totaalgewicht dat de klant ontvangt."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Type of Lid",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Type deksel",
+          "attributeDefinition": "Indien dit attribuut niet relevant is, kies de waarde 'Geen deksel'."
+        },
+        {
+          "locale": "fr",
+          "name": "Type de couvercle",
+          "attributeDefinition": "Si cet attribut n'est pas pertinent, choisissez la valeur \"Pas de couvercle\"."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Warranty Validity Time",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Fabrieksgarantie termijn",
+          "attributeDefinition": "Kies de termijn van de fabrieksgarantie. Ben je de leverancier maar niet de fabrikant? Kies hier dan de garantie die de fabrikant geeft. Indien dit attribuut niet relevant is, kies de waarde 'Geen garantie'."
+        },
+        {
+          "locale": "fr",
+          "name": "Délai de garantie du fabricant",
+          "attributeDefinition": "Sélectionnez la durée de la garantie du fabricant. Êtes-vous le fournisseur mais pas le fabricant ? Choisissez ensuite ici la garantie donnée par le fabricant. Si cet attribut n'est pas pertinent, choisissez la valeur 'Aucune garantie'."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Warranty Type",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Reparatie type",
+          "attributeDefinition": "Kies hierbij de service die de fabrikant aanbiedt wanneer een product gerepareerd moet worden. Carry-in = de klant stuurt het product op. On-site = de fabrikant repareert het product aan huis of voorziet de klant van een vervangend product. Pick up and return = het product wordt opgehaald bij de klant en weer gerepareerd afgeleverd."
+        },
+        {
+          "locale": "fr",
+          "name": "Type de réparation",
+          "attributeDefinition": "Sélectionnez le service offert par le fabricant lorsqu'un produit doit être réparé. Carry-in = le client envoie le produit. On-site = le fabricant répare le produit à domicile ou fournit un produit de remplacement au client. Pick up and return = le produit est enlevé chez le client et livré réparé."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Warranty Exceptions",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Exceptions à la garantie du fabricant",
+          "attributeDefinition": "Si le produit a différentes garanties du fabricant par pièce, veuillez l'expliquer ici."
+        },
+        {
+          "locale": "nl",
+          "name": "Uitzonderingen fabrieksgarantie",
+          "attributeDefinition": "Heeft het product uiteenlopende fabrieksgaranties per onderdeel, licht dat dan hier toe."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Number of Consumer Units",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Product",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Number of Consumer Units",
+          "attributeDefinition": "Les unités de consommation (EC) sont définies comme étant les plus petites unités négociables possibles, qui sont placées dans le canal de vente au détail (en ligne) à la caisse. Si cet attribut n'est pas pertinent, entrez un 0. Une unité de vente peut contenir plusieurs unités de consommation."
+        },
+        {
+          "locale": "nl",
+          "name": "Aantal consumenteneenheden (CE)",
+          "attributeDefinition": "Consumenteneenheden (CE) worden omschreven als de kleinst mogelijke verhandelbare eenheden, die in het (online)retailkanaal langs de kassa komen. Indien dit attribuut niet relevant is, vul een 0 in. Een verkoopeenheid kan meerdere consumenteneenheden bevatten."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Sub Title",
+      "promotionLevel": "Product",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Subtitel",
+          "fillingInstruction": "Secundaire titel, bedoeld om een toevoeging te geven op de titel. Niet bedoeld voor een productbeschrijving."
+        },
+        {
+          "locale": "fr",
+          "name": "Sub Title",
+          "fillingInstruction": "Titre secondaire, destiné à compléter le titre. Non destiné à une description de produit."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "BE_Title",
+      "promotionLevel": "Product",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Title",
+          "attributeDefinition": "Entrez ici le nom flamand du produit"
+        },
+        {
+          "locale": "nl",
+          "name": "Vlaamse producttitel (alleen vullen indien relevant)",
+          "attributeDefinition": "Geef hier de Vlaamse naam van het product op"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "BE_Description",
+      "promotionLevel": "Product",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Vlaamse productbeschrijving (alleen vullen indien relevant)",
+          "attributeDefinition": "De Vlaamse beschrijving, zoals deze wordt getoond op de Vlaamse productpagina. Het is mogelijk gebruik te maken van html tags."
+        },
+        {
+          "locale": "fr",
+          "name": "Description",
+          "attributeDefinition": "La description flamande, telle qu'elle figure sur la page du produit flamand. Il est possible d'utiliser des balises html."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Pros of the Product",
+      "promotionLevel": "Product",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Pros of the Product"
+        },
+        {
+          "locale": "nl",
+          "name": "Pluspunten van het product"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Cons of the Product",
+      "promotionLevel": "Product",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Cons of the Product"
+        },
+        {
+          "locale": "nl",
+          "name": "Minpunten van het product"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Typology",
+      "promotionLevel": "Family",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Typologie"
+        },
+        {
+          "locale": "fr",
+          "name": "Typology"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Kind of Gift",
+      "promotionLevel": "Family",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Kind of Gift"
+        },
+        {
+          "locale": "nl",
+          "name": "Type cadeau"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Gender",
+      "promotionLevel": "Family",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Geslacht",
+          "attributeDefinition": "Kies het geslacht"
+        },
+        {
+          "locale": "fr",
+          "name": "Sexe",
+          "attributeDefinition": "Choisissez le sexe"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Occasion",
+      "promotionLevel": "Family",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Gelegenheid",
+          "attributeDefinition": "De gelegenheid waarvoor het product geschikt is"
+        },
+        {
+          "locale": "fr",
+          "name": "Gelegenheid",
+          "attributeDefinition": "L'occasion pour laquelle le produit est adapté"
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Product Language",
+      "enrichmentLevel": 1,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "nl",
+          "name": "Producttaal",
+          "attributeDefinition": "Voer hier de taal in die het product gebruikt. Dit kan zijn: de taal van tekst die op het product staat of verschijnt of de taal die nodig is om het product veilig te gebruiken. Bijvoorbeeld: een smartphone kan bediend worden in veel verschillende talen."
+        },
+        {
+          "locale": "fr",
+          "name": "Product Language",
+          "attributeDefinition": "Saisissez ici la langue utilisée par le produit. Il peut s'agir de la langue du texte sur le produit ou apparaissant sur le produit, ou de la langue à connaître pour utiliser le produit en toute sécurité. Par exemple : un smartphone peut être utilisé dans de nombreuses langues différentes."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Language Packaging",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Language Packaging",
+          "attributeDefinition": "Entrez les langues présentes sur l'emballage du produit."
+        },
+        {
+          "locale": "nl",
+          "name": "Verpakkingstaal",
+          "attributeDefinition": "Voer hier de talen in die aanwezig zijn op de verpakking van het product."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Language Instructions",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Language Instructions",
+          "attributeDefinition": "Entrez ici les langues dans lesquelles le manuel du produit est disponible."
+        },
+        {
+          "locale": "nl",
+          "name": "Taal handleiding",
+          "attributeDefinition": "Voer hier de talen in die aanwezig zijn op de handleiding van het product."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "Language Warranty",
+      "enrichmentLevel": 2,
+      "promotionLevel": "Family",
+      "attributeType": "External",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Language Warranty",
+          "attributeDefinition": "Veuillez saisir ici les langues présentes sur le certificat de garantie du produit."
+        },
+        {
+          "locale": "nl",
+          "name": "Taal garantiebewijs",
+          "attributeDefinition": "Voer hier de talen in die aanwezig zijn op het garantiebewijs van het product."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    },
+    {
+      "attributeId": "CSR Standard",
+      "promotionLevel": "Family",
+      "attributeType": "Internal",
+      "localisedContent": [
+        {
+          "locale": "fr",
+          "name": "Caractéristique de durabilité",
+          "attributeDefinition": "Ne choisissez un label de durabilité dans la liste que s'il y a lieu. Attention : il s'agit d'un label de durabilité du produit et non de l'emballage. Le fournisseur/partenaire commercial est responsable de l'exactitude de ces informations. Nous nous réservons le droit de vérifier ces informations et de prendre des mesures si elles ne sont pas correctes."
+        },
+        {
+          "locale": "nl",
+          "name": "Duurzaamheidskenmerk",
+          "attributeDefinition": "Kies, enkel wanneer van toepassing, een duurzaamheidskeurmerk uit de lijst. Let op: het gaat om een duurzaamheidskeurmerk van het product, niet van de verpakking. De leverancier/zakelijk partner is verantwoordelijk voor de juistheid van deze informatie. Wij behouden ons het recht voor deze informatie te controleren en wanneer deze informatie niet juist is actie te ondernemen."
+        }
+      ],
+      "tracking": {
+        "createdAt": "2020-07-28T12:12:39.014409Z",
+        "lastModifiedAt": "2020-07-28T12:12:39.014409Z"
+      }
+    }
+  ]
+}

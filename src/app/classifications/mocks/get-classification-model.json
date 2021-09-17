@@ -1,0 +1,105 @@
+{
+  "GuiClassification" : {
+    "type" : "object",
+    "required" : [ "attributes", "id", "level", "localisedContent" ],
+    "properties" : {
+      "id" : {
+        "type" : "string"
+      },
+      "level" : {
+        "type" : "string"
+      },
+      "attributes" : {
+        "type" : "array",
+        "items" : {
+          "$ref" : "#/definitions/GuiGpcAttributeLink"
+        }
+      },
+      "localisedContent" : {
+        "type" : "array",
+        "uniqueItems" : true,
+        "items" : {
+          "$ref" : "#/definitions/GuiClassificationTranslation"
+        }
+      },
+      "tracking" : {
+        "$ref" : "#/definitions/GuiChangeTracking"
+      }
+    }
+  },
+  "GuiGpcAttributeLink" : {
+    "type" : "object",
+    "required" : [ "attributeId", "localisedContent" ],
+    "properties" : {
+      "attributeId" : {
+        "type" : "string"
+      },
+      "enrichmentLevel" : {
+        "type" : "integer",
+        "format" : "int32"
+      },
+      "promotionLevel" : {
+        "type" : "string"
+      },
+      "attributeType" : {
+        "type" : "string"
+      },
+      "localisedContent" : {
+        "type" : "array",
+        "uniqueItems" : true,
+        "items" : {
+          "$ref" : "#/definitions/GuiAttributeTranslation"
+        }
+      },
+      "tracking" : {
+        "$ref" : "#/definitions/GuiChangeTracking"
+      }
+    }
+  },
+  "GuiAttributeTranslation" : {
+    "type" : "object",
+    "required" : [ "locale" ],
+    "properties" : {
+      "locale" : {
+        "type" : "string"
+      },
+      "name" : {
+        "type" : "string"
+      },
+      "attributeDefinition" : {
+        "type" : "string"
+      },
+      "fillingInstruction" : {
+        "type" : "string"
+      }
+    }
+  },
+  "GuiClassificationTranslation" : {
+    "type" : "object",
+    "required" : [ "locale" ],
+    "properties" : {
+      "locale" : {
+        "type" : "string"
+      },
+      "name" : {
+        "type" : "string"
+      }
+    }
+  },
+  "GuiChangeTracking" : {
+    "type" : "object",
+    "properties" : {
+      "createdAt" : {
+        "type" : "string",
+        "format" : "date-time"
+      },
+      "lastModifiedAt" : {
+        "type" : "string",
+        "format" : "date-time"
+      },
+      "lastModifiedBy" : {
+        "type" : "string"
+      }
+    }
+  }
+}

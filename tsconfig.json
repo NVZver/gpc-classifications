@@ -20,6 +20,9 @@
         "dist/classifications/classifications",
         "dist/classifications"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
