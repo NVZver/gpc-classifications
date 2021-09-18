@@ -7,9 +7,13 @@ import { ClassificationsRoutingModule } from './classifications-routing.module';
 import { ClassificationsService } from './classifications.service';
 
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 const uiModules = [
-  MatCardModule
+  MatCardModule,
+  MatButtonModule,
+  MatIconModule
 ];
 
 

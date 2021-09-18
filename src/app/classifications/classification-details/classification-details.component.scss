@@ -5,6 +5,11 @@ $classification-details-title-color: rgb(70, 70, 70);
   &:last-child{
     margin-bottom: 0px;
   }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__block{
     margin-bottom: $classification-details-spacer;
     &-title {
