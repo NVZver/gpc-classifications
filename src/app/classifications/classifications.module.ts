@@ -6,7 +6,11 @@ import { ClassificationEditComponent } from './classification-edit/classificatio
 import { ClassificationsRoutingModule } from './classifications-routing.module';
 import { ClassificationsService } from './classifications.service';
 
+import {MatCardModule} from '@angular/material/card';
 
+const uiModules = [
+  MatCardModule
+];
 
 
 @NgModule({
@@ -17,6 +21,7 @@ import { ClassificationsService } from './classifications.service';
   ],
   imports: [
     CommonModule,
+    ...uiModules,
     ClassificationsRoutingModule
   ],
   providers: [

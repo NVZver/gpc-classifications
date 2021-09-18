@@ -1,0 +1,21 @@
+$classification-details-spacer: 10px;
+$classification-details-title-color: rgb(70, 70, 70);
+
+.classification-details {
+  &:last-child{
+    margin-bottom: 0px;
+  }
+  &__block{
+    margin-bottom: $classification-details-spacer;
+    &-title {
+      font-size: 16px;
+      color: $classification-details-title-color;
+    }
+    &-label {
+      color: $classification-details-title-color;
+    }
+    &-value {
+      font-size: 18px;
+    }
+  }
+}

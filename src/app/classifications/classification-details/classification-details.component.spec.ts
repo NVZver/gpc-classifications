@@ -4,7 +4,7 @@ import CHUNK_MOCK from '../mocks/chunk.json';
 import { ClassificationDetailsComponent } from './classification-details.component';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+import { DebugElement, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 
 describe('ClassificationDetailsComponent', () => {
   let component: ClassificationDetailsComponent;
@@ -44,6 +44,7 @@ describe('ClassificationDetailsComponent', () => {
       providers: [
         { provide: ClassificationsService, useValue: classificationsServiceStub }
       ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
     })
     .compileComponents();
   });

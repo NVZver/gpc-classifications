@@ -1,40 +1,76 @@
 
 <ng-container *ngIf="chunk$ | async as chunk">
-  Classification
-  <div>
-    ID: <span data-role="classification-details__id">
-      {{chunk.id}}
-    </span>
-  </div>
-  <div >
-    Level: <span data-role="classification-details__level">
-      {{chunk.level}}
-    </span>
-  </div>
-  <div data-role="classification-details__localised-content">
-    Localised Content
-    <div data-role="classification-details__localised-content-item"
-         *ngFor="let localisedContentItem of chunk.localisedContent"
-    >
-      {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
-    </div>
-  </div>
-  <div data-role="classification-details__tracking">
-    Tracking
-    <div>
-      Created at <span data-role="classification-details__tracking-created-at">
-        {{ chunk.tracking.createdAt | date }}
-      </span>
-    </div>
-    <div>
-      Last Modified
-      <span data-role="classification-details__tracking-last-modified-at" >
-        {{ chunk.tracking.lastModifiedAt | date }}
-      </span>
-      by
-      <span data-role="classification-details__tracking-last-modified-by">
-        {{ chunk.tracking.lastModifiedBy }}
-      </span>
-    </div>
-  </div>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Classification</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="classification-details">
+      <div class="classification-details__block">
+        <div class="classification-details__block-title">
+          Id
+        </div>
+        <div data-role="classification-details__id"
+             class="classification-details__block-value"
+        >
+          {{chunk.id}}
+        </div>
+      </div>
+      <div class="classification-details__block">
+        <div class="classification-details__block-title">
+          Level
+        </div>
+        <div data-role="classification-details__level"
+             class="classification-details__block-value"
+        >
+          {{chunk.level}}
+        </div>
+      </div>
+
+      <div class="classification-details__block"
+           data-role="classification-details__localised-content"
+      >
+        <div class="classification-details__block-title">
+          Localised Content
+        </div>
+        <div
+          data-role="classification-details__localised-content-item"
+          *ngFor="let localisedContentItem of chunk.localisedContent"
+          class="classification-details__block-value"
+        >
+          {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
+        </div>
+      </div>
+
+      <div
+        data-role="classification-details__tracking"
+        class="classification-details__block"
+      >
+        <div class="classification-details__block-title">
+          Tracking
+        </div>
+        <div>
+          <span class="classification-details__block-label">Created at</span>
+          <span
+            class="classification-details__block-value"
+            data-role="classification-details__tracking-created-at">
+            {{ chunk.tracking.createdAt | date }}
+          </span>
+        </div>
+        <div>
+          <span class="classification-details__block-label">Last Modified</span>
+          <span
+            class="classification-details__block-value"
+            data-role="classification-details__tracking-last-modified-at">
+            {{ chunk.tracking.lastModifiedAt | date }}
+          </span>
+          <span class="classification-details__block-label">by</span>
+          <span
+            class="classification-details__block-value"
+            data-role="classification-details__tracking-last-modified-by">
+            {{ chunk.tracking.lastModifiedBy }}
+          </span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
 </ng-container>
