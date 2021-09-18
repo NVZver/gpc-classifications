@@ -1,1 +1,40 @@
-<p>classification-details works!</p>
+
+<ng-container *ngIf="chunk$ | async as chunk">
+  Classification
+  <div>
+    ID: <span data-role="classification-details__id">
+      {{chunk.id}}
+    </span>
+  </div>
+  <div >
+    Level: <span data-role="classification-details__level">
+      {{chunk.level}}
+    </span>
+  </div>
+  <div data-role="classification-details__localised-content">
+    Localised Content
+    <div data-role="classification-details__localised-content-item"
+         *ngFor="let localisedContentItem of chunk.localisedContent"
+    >
+      {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
+    </div>
+  </div>
+  <div data-role="classification-details__tracking">
+    Tracking
+    <div>
+      Created at <span data-role="classification-details__tracking-created-at">
+        {{ chunk.tracking.createdAt | date }}
+      </span>
+    </div>
+    <div>
+      Last Modified
+      <span data-role="classification-details__tracking-last-modified-at" >
+        {{ chunk.tracking.lastModifiedAt | date }}
+      </span>
+      by
+      <span data-role="classification-details__tracking-last-modified-by">
+        {{ chunk.tracking.lastModifiedBy }}
+      </span>
+    </div>
+  </div>
+</ng-container>

@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { ClassificationsService } from './classifications.service';
 
-import * as CHUNK_MOCK from './mocks/chunk.json';
+import CHUNK_MOCK from './mocks/chunk.json';
 
 describe('ClassificationsService', () => {
   let service: ClassificationsService;

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Chunk } from './types/chunk';
-import * as CHUNK_MOCK from './mocks/chunk.json';
+import CHUNK_MOCK from './mocks/chunk.json';
 
 @Injectable({
   providedIn: 'root'
