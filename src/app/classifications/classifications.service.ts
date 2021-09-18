@@ -12,6 +12,7 @@ export class ClassificationsService {
 
   getChunk(): Observable<Chunk> {
     // todo: implement API call when it's ready;
-    return of(CHUNK_MOCK as Chunk);
+    const chunk = JSON.parse(JSON.stringify(CHUNK_MOCK));
+    return of(chunk as Chunk);
   }
 }

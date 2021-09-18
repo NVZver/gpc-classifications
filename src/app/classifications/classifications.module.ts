@@ -9,11 +9,20 @@ import { ClassificationsService } from './classifications.service';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { ClassificationDetailsMainComponent } from './classification-details-main/classification-details-main.component';
+import { ClassificationDetailsAttributesComponent } from './classification-details-attributes/classification-details-attributes.component';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { ClassificationDetailsTrackingComponent } from './classification-details-tracking/classification-details-tracking.component';
 
 const uiModules = [
   MatCardModule,
   MatButtonModule,
-  MatIconModule
+  MatIconModule,
+  MatDividerModule,
+  MatListModule,
+  MatExpansionModule,
 ];
 
 
@@ -21,7 +30,10 @@ const uiModules = [
   declarations: [
     ClassificationsComponent,
     ClassificationDetailsComponent,
-    ClassificationEditComponent
+    ClassificationEditComponent,
+    ClassificationDetailsMainComponent,
+    ClassificationDetailsAttributesComponent,
+    ClassificationDetailsTrackingComponent
   ],
   imports: [
     CommonModule,

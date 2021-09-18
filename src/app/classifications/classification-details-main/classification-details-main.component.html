@@ -1,0 +1,39 @@
+<ng-container *ngIf="chunk">
+  <div class="classification-details__block">
+    <div class="classification-details__block-title">
+      Id
+    </div>
+    <div data-role="classification-details__id"
+          class="classification-details__block-value"
+    >
+      {{chunk.id}}
+    </div>
+  </div>
+  <div class="classification-details__block">
+    <div class="classification-details__block-title">
+      Level
+    </div>
+    <div data-role="classification-details__level"
+          class="classification-details__block-value"
+    >
+      {{chunk.level}}
+    </div>
+  </div>
+
+  <div class="classification-details__block"
+        data-role="classification-details__localised-content"
+  >
+    <div class="classification-details__block-title">
+      Localised Content
+    </div>
+    <div
+      data-role="classification-details__localised-content-item"
+      *ngFor="let localisedContentItem of chunk.localisedContent"
+      class="classification-details__block-value"
+    >
+      {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
+    </div>
+  </div>
+
+
+</ng-container>

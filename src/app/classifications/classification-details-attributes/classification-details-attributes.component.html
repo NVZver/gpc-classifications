@@ -1,0 +1,11 @@
+<mat-accordion class="classification-details-attribute">
+  <mat-expansion-panel
+  class="classification-details-attribute"
+  *ngFor="let attribute of attributes">
+    <mat-expansion-panel-header>
+      <mat-panel-title>{{attribute.attributeId}}</mat-panel-title>
+      <mat-panel-description>{{attribute.attributeType}}</mat-panel-description>
+    </mat-expansion-panel-header>
+    <app-classification-details-tracking [tracking]="attribute.tracking"></app-classification-details-tracking>
+  </mat-expansion-panel>
+</mat-accordion>

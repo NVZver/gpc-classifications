@@ -1,0 +1,27 @@
+<div
+data-role="classification-details__tracking"
+class="classification-details__block"
+>
+  <div>
+    <span class="classification-details__block-label">Created at</span>
+    <span
+      class="classification-details__block-value"
+      data-role="classification-details__tracking-created-at">
+      {{ tracking.createdAt | date }}
+    </span>
+  </div>
+  <div>
+    <span class="classification-details__block-label">Last Modified</span>
+    <span
+      class="classification-details__block-value"
+      data-role="classification-details__tracking-last-modified-at">
+      {{ tracking.lastModifiedAt | date }}
+    </span>
+    <span class="classification-details__block-label">by</span>
+    <span
+      class="classification-details__block-value"
+      data-role="classification-details__tracking-last-modified-by">
+      {{ tracking.lastModifiedBy }}
+    </span>
+  </div>
+</div>
