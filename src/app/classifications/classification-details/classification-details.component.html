@@ -9,9 +9,14 @@
     </mat-card-header>
     <mat-card-content class="classification-details">
       <app-classification-details-main
-        [chunk]="chunk"
-        (updated)="onChunkUpdated($event)"
+        [id]="chunk.id"
+        [level]="chunk.level"
       ></app-classification-details-main>
+      <mat-divider [inset]="true"></mat-divider>
+      <app-classification-localised-content
+        [localisedContent]="chunk.localisedContent"
+        (updated)="onChunkUpdated($event)"
+      ></app-classification-localised-content>
       <app-classification-details-tracking [tracking]="chunk.tracking"></app-classification-details-tracking>
       <mat-divider [inset]="true"></mat-divider>
       <app-classification-details-attributes [chunkAttributes]="chunk.attributes"></app-classification-details-attributes>

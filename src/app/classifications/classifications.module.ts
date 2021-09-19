@@ -18,6 +18,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import { ClassificationDetailsTrackingComponent } from './classification-details-tracking/classification-details-tracking.component';
 import { FormsModule } from '@angular/forms';
+import { ClassificationLocalisedContentComponent } from './classification-localised-content/classification-localised-content.component';
 
 const uiModules = [
   MatCardModule,
@@ -38,7 +39,8 @@ const uiModules = [
     ClassificationEditComponent,
     ClassificationDetailsMainComponent,
     ClassificationDetailsAttributesComponent,
-    ClassificationDetailsTrackingComponent
+    ClassificationDetailsTrackingComponent,
+    ClassificationLocalisedContentComponent
   ],
   imports: [
     CommonModule,

@@ -1,4 +1,4 @@
-<ng-container *ngIf="chunk">
+<ng-container *ngIf="id || level">
   <div class="classification-details__block">
     <div class="classification-details__block-title">
       Id
@@ -6,7 +6,7 @@
     <div data-role="classification-details__id"
           class="classification-details__block-value"
     >
-      {{chunk.id}}
+      {{id}}
     </div>
   </div>
   <div class="classification-details__block">
@@ -16,45 +16,7 @@
     <div data-role="classification-details__level"
           class="classification-details__block-value"
     >
-      {{chunk.level}}
+      {{level}}
     </div>
   </div>
-
-  <div class="classification-details__block"
-        data-role="classification-details__localised-content"
-  >
-    <div class="classification-details__block-title">
-      Localised Content
-      <button
-        *ngIf="!editMode; else saveButton"
-        mat-icon-button
-        color="primary"
-        (click)="onEdit()">
-        <mat-icon>edit</mat-icon>
-      </button>
-      <ng-template #saveButton>
-        <button mat-icon-button color="primary" (click)="onSave()">
-          <mat-icon>save</mat-icon>
-        </button>
-        <button mat-icon-button color="accent" (click)="onCancel()">
-          <mat-icon>cancel</mat-icon>
-        </button>
-      </ng-template>
-    </div>
-    <div
-      *ngFor="let localisedContentItem of chunk.localisedContent"
-      class="classification-details__block-value"
-    >
-      <ng-container *ngIf="!editMode; else localeInput">
-        <span data-role="classification-details__localised-content-item">
-          {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
-        </span>
-      </ng-container>
-      <ng-template #localeInput>
-        <input [(ngModel)]="localisedContentItem.name">
-      </ng-template>
-    </div>
-  </div>
-
-
 </ng-container>
