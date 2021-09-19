@@ -12,7 +12,14 @@ export class ClassificationDetailsComponent {
 
   chunk$: Observable<Chunk> = this.classificationsService.getChunk();
 
+  editMode = false;
+
   constructor(
     private classificationsService: ClassificationsService
   ) { }
+
+  onChunkUpdated(chunk: Chunk): void{
+    this.classificationsService.updateChunk(chunk);
+  }
+
 }

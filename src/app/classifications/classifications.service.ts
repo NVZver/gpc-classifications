@@ -15,4 +15,13 @@ export class ClassificationsService {
     const chunk = JSON.parse(JSON.stringify(CHUNK_MOCK));
     return of(chunk as Chunk);
   }
+
+  updateChunk(chunk: Chunk): Observable<any> {
+    // todo: implement API call when it's ready;
+    const {id, localisedContent} = chunk;
+    console.log(`PUT data to "/v1/classifications/${id}"`, {id, localisedContent});
+    return of({
+      status: 'saved'
+    });
+  }
 }
