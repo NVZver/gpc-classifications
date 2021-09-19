@@ -27,7 +27,7 @@ export class ClassificationDetailsAttributesComponent implements OnInit, OnDestr
     value: 'lastModifiedAt'
   }];
 
-  @Input() attributes: ChunkAttribute[] = [];
+  @Input() chunkAttributes: ChunkAttribute[] = [];
 
   search$ = new BehaviorSubject('');
   sort$ = new BehaviorSubject<SortingPayload | undefined>(undefined);
@@ -40,9 +40,9 @@ export class ClassificationDetailsAttributesComponent implements OnInit, OnDestr
   ]).pipe(switchMap(([searchText, sort]) => {
     let attributes: ChunkAttribute[];
     if (searchText === ''){
-      attributes = this.attributes;
+      attributes = this.chunkAttributes;
     } else {
-      attributes = this.attributes.filter(attribute => attribute
+      attributes = this.chunkAttributes.filter(attribute => attribute
         .attributeId
         .toLocaleLowerCase()
         .includes(searchText.toLocaleLowerCase()));
