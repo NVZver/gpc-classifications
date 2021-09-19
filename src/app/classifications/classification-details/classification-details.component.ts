@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ClassificationsService } from '../classifications.service';
-import { Chunk } from '../types/chunk';
+import { Chunk, LocalisedContent } from '../types/chunk';
 
 @Component({
   selector: 'app-classification-details',
@@ -18,7 +18,8 @@ export class ClassificationDetailsComponent {
     private classificationsService: ClassificationsService
   ) { }
 
-  onChunkUpdated(chunk: Chunk): void{
+  onChunkUpdated(localisedContent: LocalisedContent[], chunk: Chunk): void{
+    chunk.localisedContent = localisedContent;
     this.classificationsService.updateChunk(chunk);
   }
 
