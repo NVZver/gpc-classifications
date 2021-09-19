@@ -42,12 +42,13 @@
       </ng-template>
     </div>
     <div
-      data-role="classification-details__localised-content-item"
       *ngFor="let localisedContentItem of chunk.localisedContent"
       class="classification-details__block-value"
     >
       <ng-container *ngIf="!editMode; else localeInput">
-        {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
+        <span data-role="classification-details__localised-content-item">
+          {{localisedContentItem.locale | uppercase}}: {{localisedContentItem.name}}
+        </span>
       </ng-container>
       <ng-template #localeInput>
         <input [(ngModel)]="localisedContentItem.name">

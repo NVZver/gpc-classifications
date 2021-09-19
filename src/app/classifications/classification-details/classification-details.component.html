@@ -12,9 +12,9 @@
         [chunk]="chunk"
         (updated)="onChunkUpdated($event)"
       ></app-classification-details-main>
-      <app-classification-details-tracking [tracking]="chunk?.tracking"></app-classification-details-tracking>
+      <app-classification-details-tracking [tracking]="chunk.tracking"></app-classification-details-tracking>
       <mat-divider [inset]="true"></mat-divider>
-      <app-classification-details-attributes [attributes]="chunk?.attributes"></app-classification-details-attributes>
+      <app-classification-details-attributes [attributes]="chunk.attributes"></app-classification-details-attributes>
     </mat-card-content>
   </mat-card>
 </ng-container>

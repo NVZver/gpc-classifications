@@ -14,7 +14,8 @@ describe('ClassificationDetailsComponent', () => {
 
   beforeEach(async () => {
     classificationsServiceStub = {
-      getChunk: jasmine.createSpy('getChunk').and.returnValue(of(CHUNK_MOCK))
+      getChunk: jasmine.createSpy('getChunk').and.returnValue(of(CHUNK_MOCK)),
+      updateChunk: jasmine.createSpy('updateChunk').and.returnValue(of({status: 200}))
     };
 
     await TestBed.configureTestingModule({
