@@ -14,6 +14,8 @@ import { ClassificationDetailsAttributesComponent } from './classification-detai
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 import { ClassificationDetailsTrackingComponent } from './classification-details-tracking/classification-details-tracking.component';
 
 const uiModules = [
@@ -23,6 +25,8 @@ const uiModules = [
   MatDividerModule,
   MatListModule,
   MatExpansionModule,
+  MatInputModule,
+  MatSelectModule,
 ];
 
 

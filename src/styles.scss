@@ -29,3 +29,16 @@ $classification-details-title-color: rgb(70, 70, 70);
     }
   }
 }
+
+.sort {
+  &__option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__icon{
+    &--asc{
+      transform: rotate(180deg);
+    }
+  }
+}

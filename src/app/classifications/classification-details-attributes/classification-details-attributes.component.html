@@ -1,10 +1,43 @@
-<mat-accordion class="classification-details-attribute">
+<form>
+  <mat-form-field>
+    <mat-label>Search</mat-label>
+    <input data-role="classification-details-attribute__search-input"
+     matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Sort By</mat-label>
+    <mat-select (valueChange)="onSort($event)">
+      <ng-container *ngFor="let sortField of sortFields" >
+        <mat-option [value]="{
+          field: sortField.value,
+          direction: 'asc'
+        }">
+          <div class="sort__option">
+            <span>{{sortField.name}}</span> <mat-icon class="sort__icon--asc">sort</mat-icon>
+          </div>
+        </mat-option>
+        <mat-option class="sort__option"  [value]="{
+          field: sortField.value,
+          direction: 'desc'
+        }">
+        <div class="sort__option">
+          <span>{{sortField.name}}</span> <mat-icon>sort</mat-icon>
+        </div>
+        </mat-option>
+      </ng-container>
+    </mat-select>
+  </mat-form-field>
+</form>
+
+
+<mat-accordion class="classification-details-attribute"
+  *ngIf="attributes$ | async as attributes">
   <mat-expansion-panel
-  class="classification-details-attribute"
   *ngFor="let attribute of attributes">
-    <mat-expansion-panel-header>
+    <mat-expansion-panel-header class="classification-details-attribute__header">
       <mat-panel-title>{{attribute.attributeId}}</mat-panel-title>
       <mat-panel-description>{{attribute.attributeType}}</mat-panel-description>
+      <mat-panel-description> Last modified: {{attribute.tracking.lastModifiedAt | date}}</mat-panel-description>
     </mat-expansion-panel-header>
     <app-classification-details-tracking [tracking]="attribute.tracking"></app-classification-details-tracking>
   </mat-expansion-panel>
