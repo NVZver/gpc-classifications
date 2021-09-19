@@ -15,6 +15,7 @@
       <mat-divider [inset]="true"></mat-divider>
       <app-classification-localised-content
         [localisedContent]="chunk.localisedContent"
+        [canEdit]="true"
         (updated)="onChunkUpdated($event, chunk)"
       ></app-classification-localised-content>
       <app-classification-details-tracking [tracking]="chunk.tracking"></app-classification-details-tracking>

@@ -39,6 +39,7 @@
       <mat-panel-description>{{attribute.attributeType}}</mat-panel-description>
       <mat-panel-description> Last modified: {{attribute.tracking.lastModifiedAt | date}}</mat-panel-description>
     </mat-expansion-panel-header>
+    <app-classification-localised-content [localisedContent]="attribute.localisedContent" [canEdit]="false"></app-classification-localised-content>
     <app-classification-details-tracking [tracking]="attribute.tracking"></app-classification-details-tracking>
   </mat-expansion-panel>
 </mat-accordion>

@@ -21,6 +21,8 @@ export class ClassificationLocalisedContentComponent {
     return this._localisedContent;
   }
 
+  @Input() canEdit = false;
+
   @Output() updated = new EventEmitter<LocalisedContent[]>();
 
   private _localisedContent: LocalisedContent[];
