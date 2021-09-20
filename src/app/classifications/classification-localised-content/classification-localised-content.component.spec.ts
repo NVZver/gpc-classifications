@@ -4,6 +4,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import CHUNK_MOCK from '../mocks/chunk.json';
 import { getText, getElement, getElements } from '../../helpers/testing';
 import { ClassificationLocalisedContentComponent } from './classification-localised-content.component';
+import { LocalisedContent } from 'src/app/classifications/types/chunk';
 
 describe('ClassificationLocalisedContentComponent', () => {
   let component: ClassificationLocalisedContentComponent;
@@ -24,6 +25,7 @@ describe('ClassificationLocalisedContentComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ClassificationLocalisedContentComponent);
     component = fixture.componentInstance;
+    component.localisedContent = CHUNK_MOCK.localisedContent as LocalisedContent[];
     fixture.detectChanges();
   });
 
