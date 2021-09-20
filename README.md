@@ -1,6 +1,6 @@
 # What was done
 - Analysed data structure
-- Designed basic design to display all the information
+- Designed basic UI to display all the information
 - Implemented initial angular module and covered by unit-tests
 - Using decomposition the module was broken down into several stateless components
 - Moved unit-tests to the related components
